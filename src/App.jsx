@@ -15,10 +15,10 @@ const App = () => {
     <Router>
       <Routes>
         <Route
-          path="portfolio/"
+          path="/portfolio/"
           element={<Layout userFullName={userFullName} />}
         >
-          <Route path="portfolio/" element={<Home />} />
+          <Route path="/portfolio/" element={<Home />} />
           <Route path="/portfolio/about" element={<About />} />
           <Route path="/portfolio/projects" element={<Projects />} />
           <Route path="/portfolio/contacts" element={<Contacts />} />
